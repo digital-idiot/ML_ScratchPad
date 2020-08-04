@@ -1,0 +1,218 @@
+<VRTDataset rasterXSize="6000" rasterYSize="6000">
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["WGS 84 / UTM zone 33N",GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",15],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["EPSG","32633"]]</SRS>
+  <GeoTransform>  3.6727650000000000e+05,  5.0000000000000003e-02,  0.0000000000000000e+00,  5.8073625999999996e+06,  0.0000000000000000e+00, -5.0000000000000003e-02</GeoTransform>
+  <VRTRasterBand dataType="Byte" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">252</MDI>
+      <MDI key="STATISTICS_MEAN">85.750121376963</MDI>
+      <MDI key="STATISTICS_MINIMUM">10</MDI>
+      <MDI key="STATISTICS_STDDEV">35.149337660633</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <ColorInterp>Gray</ColorInterp>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_0_0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_1_0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="0" yOff="3000" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_0_1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="3000" yOff="0" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_1_1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="3000" yOff="3000" xSize="3000" ySize="3000" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="2">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">253</MDI>
+      <MDI key="STATISTICS_MEAN">90.082015588456</MDI>
+      <MDI key="STATISTICS_MINIMUM">9</MDI>
+      <MDI key="STATISTICS_STDDEV">33.484427619157</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_0_0.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_1_0.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="0" yOff="3000" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_0_1.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="3000" yOff="0" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_1_1.tif</SourceFilename>
+      <SourceBand>2</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="3000" yOff="3000" xSize="3000" ySize="3000" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="3">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">253</MDI>
+      <MDI key="STATISTICS_MEAN">84.312133258854</MDI>
+      <MDI key="STATISTICS_MINIMUM">4</MDI>
+      <MDI key="STATISTICS_STDDEV">34.323871772411</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_0_0.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_1_0.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="0" yOff="3000" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_0_1.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="3000" yOff="0" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_1_1.tif</SourceFilename>
+      <SourceBand>3</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="3000" yOff="3000" xSize="3000" ySize="3000" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="4">
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_0_0.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_1_0.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="0" yOff="3000" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_0_1.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="3000" yOff="0" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_1_1.tif</SourceFilename>
+      <SourceBand>4</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="3000" yOff="3000" xSize="3000" ySize="3000" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="5">
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_0_0.tif</SourceFilename>
+      <SourceBand>5</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_1_0.tif</SourceFilename>
+      <SourceBand>5</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="0" yOff="3000" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_0_1.tif</SourceFilename>
+      <SourceBand>5</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="3000" yOff="0" xSize="3000" ySize="3000" />
+    </SimpleSource>
+    <SimpleSource resampling="near">
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_1_1.tif</SourceFilename>
+      <SourceBand>5</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="3000" yOff="3000" xSize="3000" ySize="3000" />
+    </SimpleSource>
+  </VRTRasterBand>
+  <VRTRasterBand dataType="Byte" band="6">
+    <ColorInterp>Alpha</ColorInterp>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_0_0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_1_0.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="0" yOff="3000" xSize="3000" ySize="3000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_0_1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="3000" yOff="0" xSize="3000" ySize="3000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+    <ComplexSource>
+      <SourceFilename relativeToVRT="1">Tiles\RGBIR_Potsdam_06_11_1_1.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="3000" RasterYSize="3000" DataType="Byte" BlockXSize="256" BlockYSize="256" />
+      <SrcRect xOff="0" yOff="0" xSize="3000" ySize="3000" />
+      <DstRect xOff="3000" yOff="3000" xSize="3000" ySize="3000" />
+      <ScaleOffset>255</ScaleOffset>
+      <ScaleRatio>0</ScaleRatio>
+    </ComplexSource>
+  </VRTRasterBand>
+</VRTDataset>
