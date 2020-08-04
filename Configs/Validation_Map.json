@@ -1,0 +1,22 @@
+{
+    "Potsdam_06_11": {
+        "IMAGE": "Data/Validation_Data/Images/RGBIR_Potsdam_06_11.vrt",
+        "LABEL": "Data/Validation_Data/Labels/Label_Potsdam_06_11.tif"
+    },
+    "Potsdam_05_11": {
+        "IMAGE": "Data/Validation_Data/Images/RGBIR_Potsdam_05_11.vrt",
+        "LABEL": "Data/Validation_Data/Labels/Label_Potsdam_05_11.tif"
+    },
+    "Potsdam_02_12": {
+        "IMAGE": "Data/Validation_Data/Images/RGBIR_Potsdam_02_12.vrt",
+        "LABEL": "Data/Validation_Data/Labels/Label_Potsdam_02_12.tif"
+    },
+    "Potsdam_07_07": {
+        "IMAGE": "Data/Validation_Data/Images/RGBIR_Potsdam_07_07.vrt",
+        "LABEL": "Data/Validation_Data/Labels/Label_Potsdam_07_07.tif"
+    },
+    "Potsdam_07_11": {
+        "IMAGE": "Data/Validation_Data/Images/RGBIR_Potsdam_07_11.vrt",
+        "LABEL": "Data/Validation_Data/Labels/Label_Potsdam_07_11.tif"
+    }
+}

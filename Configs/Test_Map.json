@@ -1,0 +1,58 @@
+{
+    "Potsdam_05_15": {
+        "IMAGE": "Data/Test_Data/Images/RGBIR_Potsdam_05_15.vrt",
+        "LABEL": null
+    },
+    "Potsdam_04_14": {
+        "IMAGE": "Data/Test_Data/Images/RGBIR_Potsdam_04_14.vrt",
+        "LABEL": null
+    },
+    "Potsdam_04_13": {
+        "IMAGE": "Data/Test_Data/Images/RGBIR_Potsdam_04_13.vrt",
+        "LABEL": null
+    },
+    "Potsdam_02_14": {
+        "IMAGE": "Data/Test_Data/Images/RGBIR_Potsdam_02_14.vrt",
+        "LABEL": null
+    },
+    "Potsdam_06_15": {
+        "IMAGE": "Data/Test_Data/Images/RGBIR_Potsdam_06_15.vrt",
+        "LABEL": null
+    },
+    "Potsdam_02_13": {
+        "IMAGE": "Data/Test_Data/Images/RGBIR_Potsdam_02_13.vrt",
+        "LABEL": null
+    },
+    "Potsdam_04_15": {
+        "IMAGE": "Data/Test_Data/Images/RGBIR_Potsdam_04_15.vrt",
+        "LABEL": null
+    },
+    "Potsdam_06_13": {
+        "IMAGE": "Data/Test_Data/Images/RGBIR_Potsdam_06_13.vrt",
+        "LABEL": null
+    },
+    "Potsdam_03_13": {
+        "IMAGE": "Data/Test_Data/Images/RGBIR_Potsdam_03_13.vrt",
+        "LABEL": null
+    },
+    "Potsdam_05_13": {
+        "IMAGE": "Data/Test_Data/Images/RGBIR_Potsdam_05_13.vrt",
+        "LABEL": null
+    },
+    "Potsdam_06_14": {
+        "IMAGE": "Data/Test_Data/Images/RGBIR_Potsdam_06_14.vrt",
+        "LABEL": null
+    },
+    "Potsdam_05_14": {
+        "IMAGE": "Data/Test_Data/Images/RGBIR_Potsdam_05_14.vrt",
+        "LABEL": null
+    },
+    "Potsdam_03_14": {
+        "IMAGE": "Data/Test_Data/Images/RGBIR_Potsdam_03_14.vrt",
+        "LABEL": null
+    },
+    "Potsdam_07_13": {
+        "IMAGE": "Data/Test_Data/Images/RGBIR_Potsdam_07_13.vrt",
+        "LABEL": null
+    }
+}

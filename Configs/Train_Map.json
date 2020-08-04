@@ -1,0 +1,78 @@
+{
+    "Potsdam_02_11": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_02_11.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_02_11.tif"
+    },
+    "Potsdam_03_12": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_03_12.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_03_12.tif"
+    },
+    "Potsdam_06_08": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_06_08.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_06_08.tif"
+    },
+    "Potsdam_05_10": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_05_10.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_05_10.tif"
+    },
+    "Potsdam_05_12": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_05_12.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_05_12.tif"
+    },
+    "Potsdam_04_12": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_04_12.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_04_12.tif"
+    },
+    "Potsdam_06_09": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_06_09.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_06_09.tif"
+    },
+    "Potsdam_02_10": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_02_10.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_02_10.tif"
+    },
+    "Potsdam_06_12": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_06_12.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_06_12.tif"
+    },
+    "Potsdam_07_10": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_07_10.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_07_10.tif"
+    },
+    "Potsdam_04_11": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_04_11.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_04_11.tif"
+    },
+    "Potsdam_06_10": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_06_10.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_06_10.tif"
+    },
+    "Potsdam_03_10": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_03_10.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_03_10.tif"
+    },
+    "Potsdam_03_11": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_03_11.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_03_11.tif"
+    },
+    "Potsdam_04_10": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_04_10.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_04_10.tif"
+    },
+    "Potsdam_07_08": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_07_08.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_07_08.tif"
+    },
+    "Potsdam_06_07": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_06_07.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_06_07.tif"
+    },
+    "Potsdam_07_12": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_07_12.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_07_12.tif"
+    },
+    "Potsdam_07_09": {
+        "IMAGE": "Data/Train_Data/Images/RGBIR_Potsdam_07_09.vrt",
+        "LABEL": "Data/Train_Data/Labels/Label_Potsdam_07_09.tif"
+    }
+}
