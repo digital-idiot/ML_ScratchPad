@@ -13,3 +13,5 @@ The images and corresponding labels are indexed in the form of hash table stored
 * keras
 * numpy
 * rasterio
+
+##### NOTE: Please update the file paths in the `vrt` files to `POSIX` path or `Windows` path according to your platform, i.e. you need to replace `\` with `/` or vice versa in the path strings.
